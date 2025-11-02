@@ -1,40 +1,130 @@
 <?php
 // lang/en.php
 return [
-    // Meniul de Navigație
+    // Navigation Menu
     'nav_acasa' => 'Home',
     'nav_preturi' => 'Prices',
     'nav_servicii' => 'Services',
     'nav_intrebari' => 'FAQ',
     'nav_contact' => 'Contact',
     'nav_comanda' => 'Order',
-    'nav_servicii_sub_1' => 'Tenders and Projects',
-    'nav_servicii_sub_2' => 'Specialized Translations',
-    'nav_servicii_sub_3' => 'Services for Companies',
+    'nav_servicii_sub_1' => 'Tenders and projects',
+    'nav_servicii_sub_2' => 'Specialized translations',
+    'nav_servicii_sub_3' => 'Services for companies',
 
     // Top Bar
-    'topbar_intrebare' => 'Questions? Call us: 0749051111',
-    'hero_title' => 'Online Translations',
-    'hero_desc' => 'We offer professional authorized and legalized translation, proofreading and interpreting services in over 20 international languages, normal and urgent regime, including weekends or legal holidays.',
-    'hero_btn' => 'Order Now',
+    'topbar_intrebare' => 'Have questions? Call: 0749051111',
+    'hero_title' => 'Online translations',
+    'hero_desc' => 'We offer professional authorized and legalized translation, revision, and interpretation services in over 20 international languages, in normal and urgent mode, including weekends or legal holidays.',
+    'hero_btn' => 'Order now',
     'topbar_select_lang' => 'Select your language',
 
     // Footer
     'footer_copyright' => 'Copyright 2022 Laseda Services',
-    'footer_suport' => 'Customer Support',
+    'footer_suport' => 'Customer support',
     'footer_anpc' => 'ANPC',
 
-    // Pagina Acasă (index.php)
+    // Home Page (index.php)
     'seo_title_acasa' => 'Home',
-    'seo_desc_acasa' => 'Authorized online translations. We provide authorized translations, interpreting and proofreading services',
+    'seo_desc_acasa' => 'Authorized online translations. We perform authorized translations, interpretation, and text proofreading.',
     // ... add the rest of the texts from the Home page
 
-    // Pagina Contact (contact.php)
+    // Contact Page (contact.php)
     'seo_title_contact' => 'Contact',
     'seo_desc_contact' => 'Contact us for authorized translations.',
     'contact_title' => 'Contact Us',
-    'contact_desc' => 'Fill out the form below...'
-    
-    
+    'contact_desc' => 'Fill out the form below...',
+    'contact_h1' => 'Contact',
+    'contact_address_label' => 'Address:',
+    'contact_address_value' => 'Bucharest, Romania',
+    'contact_phone_label' => 'Phone:',
+    'contact_phone_value' => '0749051111',
+    'contact_email_label' => 'E-mail:',
+    'contact_email_spam' => 'This email address is being protected from spambots. You need JavaScript enabled to view it.',
+
+    // Order Online Page (comanda-online.php)
+    'seo_title_comanda' => 'Order a translation',
+    'seo_desc_comanda' => 'Order authorized and legalized translations online.',
+    'comanda_form_title' => 'Order a Translation',
+    'comanda_form_name' => 'Full Name',
+    'comanda_form_name_ph' => 'Ex: John Doe',
+    'comanda_form_phone' => 'Phone',
+    'comanda_form_phone_ph' => 'Ex: 0722 123 456',
+    'comanda_form_email' => 'Email Address',
+    'comanda_form_email_ph' => 'Ex: john.doe@email.com',
+    'comanda_form_service' => 'Service Type',
+    'comanda_form_service_option_default' => 'Choose a service...',
+    'comanda_form_service_option_auth' => 'Authorized translation',
+    'comanda_form_service_option_legal' => 'Legalized translation',
+    'comanda_form_service_option_inter' => 'Interpretation',
+    'comanda_form_service_option_proof' => 'Proofreading',
+    'comanda_form_upload' => 'Upload Documents',
+    'comanda_form_upload_btn' => 'Choose files',
+    'comanda_form_upload_no_files' => 'No file selected',
+    'comanda_form_details' => 'Additional Details (Optional)',
+    'comanda_form_details_ph' => 'Any additional information that might help us...',
+    'comanda_form_submit' => 'Submit Order',
+    'comanda_form_submitting' => 'Submitting...',
+    'comanda_form_status_success' => 'Message sent successfully!',
+    'comanda_form_status_error' => 'An error occurred while sending the message.',
+
+    // FAQ Page (intrebari-frecvente.php)
+    'seo_title_faq' => 'Frequently Asked Questions',
+    'seo_desc_faq' => 'Find answers to the most common questions about our translation services.',
+    'faq_h2' => 'Frequently Asked Questions',
+    'faq_h6' => 'These are the most frequently asked questions from our clients:',
+    'faq_q1' => 'How can I find out the price of a translation/revision or interpretation session?',
+    'faq_a1' => 'After uploading and sending the documents on our contact page or to our email address and communicating the deadline, you will receive the final price and the delivery date as soon as possible.',
+    'faq_q2' => 'What is a simple translation?',
+    'faq_a2' => 'A simple translation does not require authorization or legalization, but is performed by a specialized translator (e.g., websites, literary texts, etc.).',
+    'faq_q3' => 'What is an authorized translation?',
+    'faq_a3' => 'An authorized translation is performed by a translator authorized by the Ministry of Justice, the final document having the translator\'s conclusion, stamp, and signature.',
+    'faq_q4' => 'What is a legalized translation?',
+    'faq_a4' => 'A legalized translation is a translation performed and authorized by the authorized translator and subsequently legalized by a public notary. For these translations, the price charged by the notary\'s office for legalization is added to our price.',
+    'faq_q5' => 'How long is the authorized/legalized translation valid?',
+    'faq_a5' => 'The authorized or legalized translation is valid as long as the original document is valid.',
+    'faq_q6' => 'How is the price of a translation calculated?',
+    'faq_a6' => 'A page is calculated at 2000 characters with spaces, from the document to be translated. A minimum of one page is charged.',
+    'faq_q7' => 'How do I pay for the translation?',
+    'faq_a7' => 'The translation can be paid by bank transfer, to the account that appears on the fiscal invoice.',
+    'faq_q8' => 'How do you ensure data confidentiality?',
+    'faq_a8' => 'The Laseda Service translation office is obliged, according to the translator\'s statute, to maintain the confidentiality of documents and personal data. A confidentiality contract can be concluded, additionally.',
+    'faq_q9' => 'Can I receive the translation by e-mail?',
+    'faq_a9' => 'Both simple and authorized translations can be provided scanned, by e-mail. As for legalized translations, they must be picked up in the original, or sent by courier to the address requested by the client.',
+    'faq_q10' => 'Confidentiality and Data Protection',
+    'faq_a10' => 'The confidentiality of your data is important to us. This site complies with the provisions of the GDPR regulation.',
+
+    // Prices Page (preturi.php)
+    'seo_title_preturi' => 'Prices',
+    'seo_desc_preturi' => 'Check our price list for authorized and legalized translation services.',
+    'preturi_h2' => 'Prices',
+    'preturi_p1' => 'The price for a translation takes into account the language pair, the size of the document, the field or the degree of difficulty of the text, the complexity of the format and the desired delivery date (for example, urgent translation). The prices of the Laseda Services office are among the most competitive on the market.',
+    'preturi_p2' => '- standard translation page = 2000 characters, including spaces.',
+    'preturi_p3' => '- a minimum of one page is charged for documents under 2000 characters.',
+    'preturi_p4' => '- for translations made in urgent mode (less than 24 hours), or on weekends/legal holidays, a fee of 50% of the price per page is charged.',
+    'preturi_p5' => '- for the revision / proofreading of a translation page, the fee of 50% of the price per page is paid.',
+    'preturi_p6' => '- for each additional copy, we charge a cost of 3 lei / page.',
+    'preturi_p7' => '- the cost for the delivery of the translation by post / courier will be borne by the client.',
+    'preturi_p8' => 'We are attaching below a table with estimated prices, to which urgency fees and/or discounts can be added, depending on the size of the documents to be translated. For this reason, the price offer for the requested service will be sent after the analysis of the data received from the client (the type and size of the documents and the delivery time).',
+    'preturi_table_lang' => 'LANGUAGE',
+    'preturi_table_price' => 'Price per page',
+    'preturi_table_details' => '(one page = 2000 characters with spaces)',
+
+    // Services Page (servicii.php)
+    'seo_title_servicii' => 'Services',
+    'seo_desc_servicii' => 'We offer authorized and legalized translation, revision, and interpretation services.',
+    'servicii_h2' => 'Services',
+    'servicii_p1' => 'Laseda Services offers authorized and legalized translation, revision, and interpretation services from/in English, French, Spanish, German, Italian, Dutch, Arabic, Turkish, Portuguese, Ukrainian, Greek, Polish, Czech, Russian, Chinese, Slovak, Croatian, Serbian, Norwegian, Lithuanian, Danish, etc.',
+    'servicii_p2' => 'Having an extensive team, we can translate any type of document from fields such as technical, medicine and pharmaceutical products, commerce, marketing, legal, IT, tourism, TV and media. Our clients are both legal entities, respectively, small and medium-sized companies and large/multinational companies, but also individuals.',
+    'servicii_auth_title' => 'Authorized translations',
+    'servicii_auth_p' => 'Authorized translations are translations performed by translators authorized by the Ministry of Justice of Romania to translate official documents and to work with all institutions within this ministry, or with other state institutions, such as the police, courts, law firms, or notaries.',
+    'servicii_legal_title' => 'Legalized translations',
+    'servicii_legal_p1' => 'A legalized translation is, as in the case of an authorized translation, performed by an authorized translator, and then signed and stamped by a public notary, who certifies that the translator is indeed authorized and has the right to perform the translation.',
+    'servicii_legal_p2' => 'In Romania, the translation can be legalized by a public notary, who certifies, in addition to the translator\'s signature and stamp, the fact that the document that was translated is an original document. He does not assume responsibility for the accuracy of the translation.',
+    'servicii_proof_title' => 'Proofreading services',
+    'servicii_proof_p1' => 'In addition to translation services, we also perform proofreading services.',
+    'servicii_proof_p2' => 'Our specialists correct the text from header to footer. Proofreading involves examining the characteristics of a text. This includes correcting general grammatical errors, checking the accuracy of the content, and the quality of a translation.',
+    'servicii_inter_title' => 'Interpretation services',
+    'servicii_inter_p' => 'Laseda Services provides consecutive and simultaneous interpretation services for conferences, debates, negotiations, professional training, or business meetings. We work with professional interpreters, specialized in different fields of activity.'
 ];
 ?>
