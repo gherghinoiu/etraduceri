@@ -145,6 +145,42 @@ return [
     'servicii_proof_p1' => 'Pe lângă serviciile de traducere, efectuăm totodată și servicii de corectură.',
     'servicii_proof_p2' => 'Specialiștii noștri corectează textul de la antet până la subsol. Corectura implică examinarea caracteristicilor unui text. Aceasta include corectarea greșelilor gramaticale generale, verificarea acurateței conținutului și calitatea unei traduceri.',
     'servicii_inter_title' => 'Servicii de interpretariat',
-    'servicii_inter_p' => 'Laseda Services asigură servicii de interpretariat consecutiv şi simultan, pentru conferințe, dezbateri, negocieri, formare profesională sau întâlniri de afaceri. Lucrăm cu interpreţi profesionişti, cu specializare în diferite domenii de activitate.'
+'servicii_inter_p' => 'Laseda Services asigură servicii de interpretariat consecutiv şi simultan, pentru conferințe, dezbateri, negocieri, formare profesională sau întâlniri de afaceri. Lucrăm cu interpreţi profesionişti, cu specializare în diferite domenii de activitate.',
+
+    // Pagina servicii_licitatii.php
+    'licitatii_title' => 'Licitații și proiecte cu finanțare europeană',
+    'licitatii_desc' => 'Asigurăm traducerea documentației necesare pentru licitații și proiecte cu finanțare europeană într-un termen scurt.',
+    'licitatii_h2' => 'Licitații și proiecte cu finanțare europeană',
+    'licitatii_p1' => 'Având un număr mare de traducători colaboratori, asigurăm traducerea documentației necesare pentru licitații și proiecte cu finanțare europeană într-un termen scurt, care vă permite să vă încadrați în termenul de depunere a dosarului. În acest sens, colaborăm cu companii naționale și internaționale.',
+    'licitatii_p2' => 'Principalele documente necesare pentru dosarul de finanțare europeană sunt: studii de fezabilitate, analize cost-beneficiu, acorduri de mediu, memorii de prezentare, devize generale și liste de cantități, planșe, contracte de confidențialitate, cereri de finanțare.',
+
+    // Pagina servicii_specializate.php
+    'specializate_title' => 'Traduceri specializate',
+    'specializate_desc' => 'Traduceri juridice, tehnice, medicale și literare.',
+    'specializate_h2' => 'Traduceri specializate',
+    'specializate_juridice_title' => 'Traduceri juridice',
+    'specializate_juridice_p1' => 'Toți traducătorii noștri sunt autorizați de Ministerul Justiției pentru a efectua traduceri ale documentelor oficiale, pentru instituțiile statului - parchete, instanțe de judecată, poliție etc. Totodată, colaborăm cu traducători autorizați care sunt și juriști, având o experiență vastă în acest domeniu.',
+    'specializate_juridice_p2' => 'Principalele tipuri de documente juridice sunt: contracte de comodat, contracte de cesiune, contracte de închiriere, contracte cadru, procuri speciale, contracte de confidențialitate, declarații consimțământ, contracte de vânzare-cumpărare, contracte de muncă, contracte de transport, contracte de parteneriat, contracte de prestări servicii, acte adiționale, hotărâri ale instanțelor de judecată etc.',
+    'specializate_tehnice_title' => 'Traduceri tehnice și pentru industria auto',
+    'specializate_tehnice_p1' => 'Traducerile tehnice implică o cunoaștere aprofundată a terminologiei de specialitate, combinată cu specializări în acest domeniu și o experiență corespunzătoare. Traducerile specializate necesită cel mai înalt nivel al cunoștințelor despre subiect, cu o înțelegere profundă – plus expertiză în convențiile și terminologia de scriere adecvate și cele mai relevante.',
+    'specializate_tehnice_p2' => 'Cele mai întâlnite documente tehnice sunt: manuale de utilizare, studii de fezabilitate, caiete de sarcini, proiecte de construcții, planuri cadastrale, procese-verbale de recepție, declarații CE, fișe tehnice de securitate, fișe de produs, cataloage, convenții CMR, cărți tehnice, certificate de conformitate CE, note de livrare etc.',
+    'specializate_medicale_title' => 'Traduceri medicale',
+    'specializate_medicale_p1' => 'Având în vedere terminologia de specialitate specifică, avem traducători cu studii de specialitate și experiență în acest domeniu. Având în vedere gradul de urgență pe care îl implică unele traduceri medicale, cum ar fi rețetele, asigurăm traduceri în regim de urgență, inclusiv în weekend și sărbători legale.',
+    'specializate_medicale_p2' => 'Cele mai frecvente documente medicale sunt: studii de specialitate, analize medicale, bilete de ieșire din spital/de externare, scrisori medicale, rapoarte explorare CT/IRM, adeverințe de la medicul de familie, prospecte etc.',
+    'specializate_literare_title' => 'Traduceri literare',
+    'specializate_literare_p1' => 'Colaborăm cu traducători cu studii în filologie, lingvistică, care înțeleg să exprime cel mai bine sensul, emoția și nuanțele unei traduceri literare, precum romane, eseuri, articole etc.',
+
+    // Pagina servicii_companii.php
+    'companii_title' => 'Servicii pentru companii',
+    'companii_desc' => 'Laseda Services este un partener de încredere pentru companii, de la companii mici până la companii mari și multinaționale.',
+    'companii_h2' => 'Servicii pentru companii',
+    'companii_p1' => 'Laseda Services este un partener de încredere pentru companii, de la companii mici, cu 1-3 angajați, până la companii mari și multinaționale.',
+    'companii_p2' => 'Secretul nostru constă în profesionalism și seriozitate, calități prin care putem oferi colaborări eficiente pe termen lung.',
+    'companii_p3' => 'După lansarea comenzii, vă va fi alocat un Project Manager care va sta la dispoziția dvs. pentru relații și informații.',
+    'companii_p4' => 'Având în vedere numărul mare de traducători cu care colaborăm, putem traduce documente mari sau cărți, într-un termen scurt, proiectul fiind împărțit între mai mulți traducători, specializați în domeniul respectiv, documentul fiind verificat înainte de livrare.',
+    'companii_p5' => 'Putem oferi totodată și posibilitatea utilizării unor CAT Tools, la cererea dvs.',
+    'companii_p6' => 'Confidențialitatea este asigurată, atât în ceea ce privește colaborarea și datele companiei, cât și documentele traduse, conform politicii GDPR. Toți angajații și traducătorii noștri au semnat acorduri de confidențialitate și folosim doar metode sigure de transfer de date atunci când prelucrăm informații cu caracter personal.',
+    'companii_p7' => 'Prețul este competitiv, oferind discounturi pentru documente mari și/sau colaborări pe termen lung.',
+    'companii_p8' => 'Oferim servicii noastre de interpretariat pentru conferințe, dezbateri, negocieri, formare profesională sau întâlniri de afaceri.'
 ];
 ?>

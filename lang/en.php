@@ -145,6 +145,42 @@ return [
     'servicii_proof_p1' => 'In addition to translation services, we also perform proofreading services.',
     'servicii_proof_p2' => 'Our specialists correct the text from header to footer. Proofreading involves examining the characteristics of a text. This includes correcting general grammatical errors, checking the accuracy of the content, and the quality of a translation.',
     'servicii_inter_title' => 'Interpretation services',
-    'servicii_inter_p' => 'Laseda Services provides consecutive and simultaneous interpretation services for conferences, debates, negotiations, professional training, or business meetings. We work with professional interpreters, specialized in different fields of activity.'
+'servicii_inter_p' => 'Laseda Services provides consecutive and simultaneous interpretation services for conferences, debates, negotiations, professional training, or business meetings. We work with professional interpreters, specialized in different fields of activity.',
+
+    // Tenders and Projects Page (servicii_licitatii.php)
+    'licitatii_title' => 'Tenders and projects with European funding',
+    'licitatii_desc' => 'We provide the translation of the necessary documentation for tenders and projects with European funding in a short time.',
+    'licitatii_h2' => 'Tenders and projects with European funding',
+    'licitatii_p1' => 'Having a large number of collaborating translators, we ensure the translation of the necessary documentation for tenders and projects with European funding in a short time, which allows you to meet the deadline for submitting the file. In this regard, we collaborate with national and international companies.',
+    'licitatii_p2' => 'The main documents required for the European funding file are: feasibility studies, cost-benefit analyses, environmental agreements, presentation memorandums, general estimates and lists of quantities, plans, confidentiality agreements, funding applications.',
+
+    // Specialized Translations Page (servicii_specializate.php)
+    'specializate_title' => 'Specialized Translations',
+    'specializate_desc' => 'Legal, technical, medical, and literary translations.',
+    'specializate_h2' => 'Specialized Translations',
+    'specializate_juridice_title' => 'Legal Translations',
+    'specializate_juridice_p1' => 'All our translators are authorized by the Ministry of Justice to perform translations of official documents for state institutions - prosecutors\' offices, courts, police, etc. At the same time, we collaborate with authorized translators who are also lawyers, having extensive experience in this field.',
+    'specializate_juridice_p2' => 'The main types of legal documents are: loan agreements, assignment contracts, lease agreements, framework contracts, special powers of attorney, confidentiality agreements, consent declarations, sale-purchase agreements, employment contracts, transport contracts, partnership agreements, service provision contracts, additional acts, court decisions, etc.',
+    'specializate_tehnice_title' => 'Technical and Automotive Translations',
+    'specializate_tehnice_p1' => 'Technical translations involve a thorough knowledge of specialized terminology, combined with specializations in this field and appropriate experience. Specialized translations require the highest level of knowledge on the subject, with a deep understanding - plus expertise in the appropriate and most relevant writing conventions and terminology.',
+    'specializate_tehnice_p2' => 'The most common technical documents are: user manuals, feasibility studies, specifications, construction projects, cadastral plans, reception reports, CE declarations, technical safety data sheets, product data sheets, catalogs, CMR conventions, technical books, CE conformity certificates, delivery notes, etc.',
+    'specializate_medicale_title' => 'Medical Translations',
+    'specializate_medicale_p1' => 'Given the specific specialized terminology, we have translators with specialized studies and experience in this field. Given the degree of urgency that some medical translations involve, such as prescriptions, we provide translations in urgent mode, including on weekends and legal holidays.',
+    'specializate_medicale_p2' => 'The most frequent medical documents are: specialized studies, medical analyses, hospital discharge/exit tickets, medical letters, CT/MRI exploration reports, certificates from the family doctor, leaflets, etc.',
+    'specializate_literare_title' => 'Literary Translations',
+    'specializate_literare_p1' => 'We collaborate with translators with studies in philology, linguistics, who understand how to best express the meaning, emotion, and nuances of a literary translation, such as novels, essays, articles, etc.',
+
+    // Services for Companies Page (servicii_companii.php)
+    'companii_title' => 'Services for companies',
+    'companii_desc' => 'Laseda Services is a reliable partner for companies, from small companies to large and multinational companies.',
+    'companii_h2' => 'Services for companies',
+    'companii_p1' => 'Laseda Services is a reliable partner for companies, from small companies with 1-3 employees, to large and multinational companies.',
+    'companii_p2' => 'Our secret lies in professionalism and seriousness, qualities through which we can offer effective long-term collaborations.',
+    'companii_p3' => 'After placing the order, you will be assigned a Project Manager who will be at your disposal for relationships and information.',
+    'companii_p4' => 'Given the large number of translators with whom we collaborate, we can translate large documents or books in a short time, the project being divided among several translators, specialized in the respective field, the document being checked before delivery.',
+    'companii_p5' => 'We can also offer the possibility of using CAT Tools, at your request.',
+    'companii_p6' => 'Confidentiality is ensured, both in terms of collaboration and company data, as well as the translated documents, according to the GDPR policy. All our employees and translators have signed confidentiality agreements and we use only secure data transfer methods when processing personal information.',
+    'companii_p7' => 'The price is competitive, offering discounts for large documents and/or long-term collaborations.',
+    'companii_p8' => 'We offer our interpretation services for conferences, debates, negotiations, professional training or business meetings.'
 ];
 ?>
