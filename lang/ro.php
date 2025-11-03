@@ -11,6 +11,7 @@ return [
     'nav_servicii_sub_1' => 'Licitații și proiecte',
     'nav_servicii_sub_2' => 'Traduceri specializate',
     'nav_servicii_sub_3' => 'Servicii pentru companii',
+    'nav_articles' => 'Articole',
 
     // Top Bar
     'topbar_intrebare' => 'Ai întrebări? Sună la: 0749051111',

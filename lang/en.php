@@ -11,6 +11,7 @@ return [
     'nav_servicii_sub_1' => 'Tenders and projects',
     'nav_servicii_sub_2' => 'Specialized translations',
     'nav_servicii_sub_3' => 'Services for companies',
+    'nav_articles' => 'Articles',
 
     // Top Bar
     'topbar_intrebare' => 'Have questions? Call: 0749051111',
