@@ -192,6 +192,7 @@ $path_prefix = './';
                         <li class="nav-item" data-id="118"><a href="intrebari-frecvente.php" class="nav-link"><?php echo $lang['nav_intrebari']; ?></a></li>
                         <li class="nav-item" data-id="119"><a href="contact.php" class="nav-link"><?php echo $lang['nav_contact']; ?></a></li>
                         <li class="nav-item" data-id="120"><a href="comanda-online.php" class="nav-link"><?php echo $lang['nav_comanda']; ?></a></li>
+                        <li class="nav-item" data-id="121"><a href="articles.php" class="nav-link"><?php echo $lang['nav_articles']; ?></a></li>
                       </ul>
                     </div>
                   </nav>
