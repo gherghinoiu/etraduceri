@@ -25,10 +25,10 @@
 
 
               <div itemprop="articleBody" class="com-content-article__body">
-                <h1 style="text-align: center;">LASEDA SERVICES</h1>
-                <h2 style="text-align: center;">Words travel worlds!</h2>
+                <h1 style="text-align: center;"><?php echo $lang['home_h1']; ?></h1>
+                <h2 style="text-align: center;"><?php echo $lang['home_h2']; ?></h2>
                 <br/>
-                <h3 style="text-align: center;">Serviciile noastre se adresează atât companiilor cât și persoanelor fizice, criteriile care ne definesc fiind profesionalismul și flexibilitatea. Un client mulțumit reprezintă o dovadă clară a succesului nostru.</h3>
+                <h3 style="text-align: center;"><?php echo $lang['home_h3']; ?></h3>
               </div>
 
 
@@ -54,14 +54,14 @@
 
                       <div class="hero-content">
                         <h2 class="hero-heading animated" data-animated-type="fadeInRight">
-                          Cine suntem </h2>
+                          <?php echo $lang['home_who_we_are']; ?> </h2>
 
                         <p class="lead hero-intro animated delay-1s" data-animated-type="fadeInRight">
-                          Biroul de traduceri Laseda Services a fost înființat cu scopul de a oferi cele mai bune servicii în acest domeniu, având colaborări cu peste 100 de traducători autorizați, cu specializare și experiență în numeroase domenii de activitate: juridic, tehnic, auto, medical, literar, economic, IT etc. Profesionalismul nostru și al traducătorilor noștri reprezintă cheia afacerii noastre și asigură promovarea biroului nostru de traduceri. </p>
+                          <?php echo $lang['home_who_we_are_text']; ?> </p>
 
                         <div class="hero-btn-actions animated delay-2s" data-animated-type="fadeInRight">
-                          <a class="btn btn-lg btn-secondary" href="servicii.html" title="Serviciile noastre">
-                            Serviciile noastre <i class="fas fa-long-arrow-alt-right"></i>
+                          <a class="btn btn-lg btn-secondary" href="servicii.html" title="<?php echo $lang['home_our_services']; ?>">
+                            <?php echo $lang['home_our_services_text']; ?> <i class="fas fa-long-arrow-alt-right"></i>
                           </a>
                         </div>
                       </div>
@@ -80,7 +80,7 @@
               <div class="module-inner">
                 <div class="row">
                   <div class="module-head-group col-md-4">
-                    <h3 class="module-title "><span>Serviciile noastre</span></h3>
+                    <h3 class="module-title "><span><?php echo $lang['home_our_services']; ?></span></h3>
                     <h2 class="sub-title"></h2>
                     <p class="sub-desc"></p>
                   </div>
@@ -91,31 +91,30 @@
 
                         <div class="hero-content col-md-6">
 
-                          <img class="hero-img" src="../images/item-4.png#joomlaImage://local-images/item-4.png?width=60&amp;height=57" alt="Traduceri autorizate" />
+                          <img class="hero-img" src="../images/item-4.png#joomlaImage://local-images/item-4.png?width=60&amp;height=57" alt="<?php echo $lang['home_authorized_translations']; ?>" />
 
                           <h5 class="hero-heading">
-                            <a href="#" title="Traduceri autorizate">
-                              Traduceri autorizate </a>
+                            <a href="#" title="<?php echo $lang['home_authorized_translations']; ?>">
+                              <?php echo $lang['home_authorized_translations']; ?> </a>
                           </h5>
 
                           <p class="lead hero-intro">
-                            Traducerile autorizate sunt traducerile efectuate de traducători autorizați de Ministerul Justiției din România să traducă documente oficiale și să lucreze cu toate instituțiile din cadrul acestui minister, sau cu alte instituții ale statului, precum poliția, instanțele judecătorești, cabinete de avocatură sau birouri notariale. </p>
+                            <?php echo $lang['home_authorized_translations_text']; ?> </p>
 
                         </div>
 
 
                         <div class="hero-content col-md-6">
 
-                          <img class="hero-img" src="../images/item-3.png#joomlaImage://local-images/item-3.png?width=60&amp;height=60" alt="Traduceri legalizate" />
+                          <img class="hero-img" src="../images/item-3.png#joomlaImage://local-images/item-3.png?width=60&amp;height=60" alt="<?php echo $lang['home_legalized_translations']; ?>" />
 
                           <h5 class="hero-heading">
-                            <a href="#" title="Traduceri legalizate">
-                              Traduceri legalizate </a>
+                            <a href="#" title="<?php echo $lang['home_legalized_translations']; ?>">
+                              <?php echo $lang['home_legalized_translations']; ?> </a>
                           </h5>
 
                           <p class="lead hero-intro">
-                            Traducerea legalizată este, la fel ca în cazul traducerii autorizate, realizată de un traducător autorizat, iar apoi este semnată și ștampilată de un notar public, care atestă faptul că traducătorul este într-adevăr autorizat și are dreptul de a realiza traducerea.
-                            În România, traducerea poate fi legalizată de un notar public, care certifică, pe lângă semnătura și ștampila traducătorului, și faptul că documentul care a fost tradus este un document original. Acesta nu își asumă răspunderea pentru acuratețea traducerii.
+                            <?php echo $lang['home_legalized_translations_text']; ?>
                           </p>
 
                         </div>
@@ -123,31 +122,30 @@
 
                         <div class="hero-content col-md-6">
 
-                          <img class="hero-img" src="../images/item-2.png#joomlaImage://local-images/item-2.png?width=60&amp;height=60" alt="Corectura de text" />
+                          <img class="hero-img" src="../images/item-2.png#joomlaImage://local-images/item-2.png?width=60&amp;height=60" alt="<?php echo $lang['home_text_correction']; ?>" />
 
                           <h5 class="hero-heading">
-                            <a href="#" title="Corectura de text">
-                              Corectura de text </a>
+                            <a href="#" title="<?php echo $lang['home_text_correction']; ?>">
+                              <?php echo $lang['home_text_correction']; ?> </a>
                           </h5>
 
                           <p class="lead hero-intro">
-                            Pe lângă serviciile de traducere, efectuăm totodată și servicii de corectură.
-                            Specialiștii noștri corectează textul de la antet până la subsol. Corectura implică examinarea caracteristicilor unui text. Aceasta include corectarea greșelilor gramaticale generale, verificarea acurateței conținutului și calitatea unei traduceri. </p>
+                            <?php echo $lang['home_text_correction_text']; ?> </p>
 
                         </div>
 
 
                         <div class="hero-content col-md-6">
 
-                          <img class="hero-img" src="../images/item-2.png#joomlaImage://local-images/item-2.png?width=60&amp;height=60" alt="Servicii de interpretariat" />
+                          <img class="hero-img" src="../images/item-2.png#joomlaImage://local-images/item-2.png?width=60&amp;height=60" alt="<?php echo $lang['home_interpretation_services']; ?>" />
 
                           <h5 class="hero-heading">
-                            <a href="#" title="Servicii de interpretariat">
-                              Servicii de interpretariat </a>
+                            <a href="#" title="<?php echo $lang['home_interpretation_services']; ?>">
+                              <?php echo $lang['home_interpretation_services']; ?> </a>
                           </h5>
 
                           <p class="lead hero-intro">
-                            Laseda Services asigură servicii de interpretariat consecutiv şi simultan, pentru conferințe, dezbateri, negocieri, formare profesională sau întâlniri de afaceri. Lucrăm cu interpreţi profesionişti, cu specializare în diferite domenii de activitate. </p>
+                            <?php echo $lang['home_interpretation_services_text']; ?> </p>
 
                         </div>
                       </div>
@@ -165,7 +163,7 @@
               <div class="module-inner">
                 <div class="row">
                   <div class="module-head-group col-md-4">
-                    <h3 class="module-title "><span>Modul de lucru</span></h3>
+                    <h3 class="module-title "><span><?php echo $lang['home_how_we_work']; ?></span></h3>
                     <h2 class="sub-title"></h2>
                     <p class="sub-desc"></p>
                   </div>
@@ -179,7 +177,7 @@
 
 
                           <p class="lead hero-intro">
-                            1. Ne trimiteți documentul sau textul de tradus, limba/limbile în care doriți traducerea, termenul limită și toate detaliile comenzii. </p>
+                            <?php echo $lang['home_how_we_work_step_1']; ?> </p>
 
                         </div>
 
@@ -189,7 +187,7 @@
 
 
                           <p class="lead hero-intro">
-                            2. În cel mai scurt timp vă vom oferi o ofertă de preț și data de livrare. </p>
+                            <?php echo $lang['home_how_we_work_step_2']; ?> </p>
 
                         </div>
 
@@ -199,7 +197,7 @@
 
 
                           <p class="lead hero-intro">
-                            3. După confirmarea dvs., serviciile de traducere/revizie/interpretariat vor fi efectuate. </p>
+                            <?php echo $lang['home_how_we_work_step_3']; ?> </p>
 
                         </div>
 
@@ -209,7 +207,7 @@
 
 
                           <p class="lead hero-intro">
-                            4. Livrarea se va face în cel mai scurt timp, în format electronic prin e-mail și/sau fizic, prin curier la adresa solicitată. </p>
+                            <?php echo $lang['home_how_we_work_step_4']; ?> </p>
 
                         </div>
                       </div>

@@ -28,7 +28,26 @@ return [
     // Home Page (index.php)
     'seo_title_acasa' => 'Home',
     'seo_desc_acasa' => 'Authorized online translations. We perform authorized translations, interpretation, and text proofreading.',
-    // ... add the rest of the texts from the Home page
+    'home_h1' => 'LASEDA SERVICES',
+    'home_h2' => 'Words travel worlds!',
+    'home_h3' => 'Our services are addressed to both companies and individuals, the criteria that define us being professionalism and flexibility. A satisfied client is clear proof of our success.',
+    'home_who_we_are' => 'Who we are',
+    'home_who_we_are_text' => 'The Laseda Services translation office was established with the aim of offering the best services in this field, having collaborations with over 100 authorized translators, with specialization and experience in numerous fields of activity: legal, technical, automotive, medical, literary, economic, IT, etc. Our professionalism and that of our translators is the key to our business and ensures the promotion of our translation office.',
+    'home_our_services' => 'Our services',
+    'home_our_services_text' => 'Our services',
+    'home_authorized_translations' => 'Authorized translations',
+    'home_authorized_translations_text' => 'Authorized translations are translations carried out by translators authorized by the Ministry of Justice of Romania to translate official documents and to work with all institutions within this ministry, or with other state institutions, such as the police, courts, law firms or notaries.',
+    'home_legalized_translations' => 'Legalized translations',
+    'home_legalized_translations_text' => 'The legalized translation is, as in the case of the authorized translation, carried out by an authorized translator, and then it is signed and stamped by a public notary, who certifies that the translator is indeed authorized and has the right to carry out the translation. In Romania, the translation can be legalized by a public notary, who certifies, in addition to the translator\'s signature and stamp, the fact that the translated document is an original document. He does not assume responsibility for the accuracy of the translation.',
+    'home_text_correction' => 'Text correction',
+    'home_text_correction_text' => 'In addition to translation services, we also provide proofreading services. Our specialists correct the text from header to footer. Proofreading involves examining the characteristics of a text. This includes correcting general grammatical errors, checking the accuracy of the content and the quality of a translation.',
+    'home_interpretation_services' => 'Interpretation services',
+    'home_interpretation_services_text' => 'Laseda Services provides consecutive and simultaneous interpretation services for conferences, debates, negotiations, professional training or business meetings. We work with professional interpreters, with specialization in different fields of activity.',
+    'home_how_we_work' => 'How we work',
+    'home_how_we_work_step_1' => '1. Send us the document or text to be translated, the language/languages you want the translation in, the deadline and all the order details.',
+    'home_how_we_work_step_2' => '2. We will provide you with a price offer and a delivery date as soon as possible.',
+    'home_how_we_work_step_3' => '3. After your confirmation, the translation/revision/interpretation services will be performed.',
+    'home_how_we_work_step_4' => '4. The delivery will be made as soon as possible, in electronic format by e-mail and/or physically, by courier to the requested address.',
 
     // Contact Page (contact.php)
     'seo_title_contact' => 'Contact',
