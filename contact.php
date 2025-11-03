@@ -24,10 +24,24 @@
 				<h3>Laseda Services SRL</h3>
 				<p><?php echo $lang['contact_address_label']; ?> <?php echo $lang['contact_address_value']; ?></p>
 				<p><?php echo $lang['contact_phone_label']; ?> <?php echo $lang['contact_phone_value']; ?></p>
-				<p><?php echo $lang['contact_email_label']; ?> <joomla-hidden-mail is-link="1" is-email="1" first="bGFzZWRh" last="dHJhZHVjZXJpYXV0bרובpemF0LmNvbQ==" text="bGFzZWRhQHRyYWR1Y2VyaWF1dG9yaXphdC5jb20=" base=""><?php echo $lang['contact_email_spam']; ?></joomla-hidden-mail></p>
+				<p><?php echo $lang['contact_email_label']; ?> <a id="email-link" href="#">Loading...</a></p>
 			</div>
 		</div>
 	</div>
 </div>
+
+<script>
+  // Simple email obfuscation to prevent basic scraping
+  (function() {
+    var user = 'laseda';
+    var domain = 'traduceriautorizat.com';
+    var email = user + '@' + domain;
+    var link = document.getElementById('email-link');
+    if (link) {
+      link.href = 'mailto:' + email;
+      link.textContent = email;
+    }
+  })();
+</script>
 
 <?php include 'includes/footer.php'; ?>
