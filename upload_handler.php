@@ -17,7 +17,8 @@ function json_error($message, $code = 400)
     exit;
 }
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    json_error('Method Not Allowed', 405);
+    http_response_code(405);
+    exit('Method Not Allowed');
 }
 if (!isset($_POST['csrf']) || !hash_equals($_SESSION['csrf'] ?? '', $_POST['csrf'])) {
     json_error('Invalid security token. Please refresh the page and try again.', 403);
@@ -32,7 +33,7 @@ if (!is_dir($uploadDir)) {
 }
 
 if (!isset($_FILES['documents'])) {
-    json_error('Niciun fișier încărcat.');
+    exit('Niciun fișier încărcat.');
 }
 
 $names = $_FILES['documents']['name'];
@@ -41,32 +42,32 @@ $errors = $_FILES['documents']['error'];
 $sizes = $_FILES['documents']['size'];
 
 if (count($names) > $maxFiles) {
-    json_error('Ai depășit limita de 10 fișiere.');
+    exit('Ai depășit limita de 10 fișiere.');
 }
 
 $stored = [];
 for ($i = 0; $i < count($names); $i++) {
     if ($errors[$i] !== UPLOAD_ERR_OK) {
-        json_error('Eroare la încărcarea fișierelor.');
+        exit('Eroare la încărcarea fișierelor.');
     }
     if ($sizes[$i] > $maxSize) {
-        json_error('Un fișier depășește 50MB.');
+        exit('Un fișier depășește 50MB.');
     }
     $orig = $names[$i];
     $ext = strtolower(pathinfo($orig, PATHINFO_EXTENSION));
     if (!in_array($ext, $allowedExt, true)) {
-        json_error('Extensie neacceptată: ' . htmlspecialchars($ext));
+        exit('Extensie neacceptată: ' . htmlspecialchars($ext));
     }
     // Prevent PHP execution
     if (in_array($ext, ['php', 'phtml', 'php3', 'php4', 'php5'])) {
-        json_error('Tip fișier interzis.');
+        exit('Tip fișier interzis.');
     }
 
     $safeBase = preg_replace('/[^A-Za-z0-9._-]/', '_', pathinfo($orig, PATHINFO_FILENAME));
     $unique = $safeBase . '_' . bin2hex(random_bytes(4)) . '.' . $ext;
     $dest = $uploadDir . $unique;
     if (!move_uploaded_file($tmp_names[$i], $dest)) {
-        json_error('Nu s-a putut salva: ' . htmlspecialchars($orig));
+        exit('Nu s-a putut salva: ' . htmlspecialchars($orig));
     }
     $stored[] = $unique;
 }
