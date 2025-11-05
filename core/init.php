@@ -26,4 +26,9 @@ if (file_exists($lang_file)) {
     // Fallback în caz de eroare
     $lang = include 'lang/ro.php';
 }
+
+// 6. Generate CSRF token if it doesn't exist
+if (empty($_SESSION['csrf'])) {
+    $_SESSION['csrf'] = bin2hex(random_bytes(32));
+}
 ?>

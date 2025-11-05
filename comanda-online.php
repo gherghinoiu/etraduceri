@@ -12,7 +12,7 @@
 ?>
 
 <div class="translation-form-container" id="top-of-order-form" >
-  <form class="translation-form" id="order-form" action="upload_handler.php" method="POST" enctype="multipart/form-data">
+  <form class="translation-form" id="order-form" method="POST" enctype="multipart/form-data">
 
     <input type="hidden" name="csrf" value="<?php echo $_SESSION['csrf']; ?>">
 
